@@ -1,0 +1,40 @@
+.background {
+	background: url(./bg-1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: calc(100vh - 64px);
+	overflow: hidden;
+}
+
+.title__container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 4vmin;
+	color: white;
+	padding-top: 20vh;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.subtitle {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3vmin;
+	color: white;
+	margin-bottom: 20px;
+}
+.signature {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2vmin;
+	color: white;
+}
+
+
